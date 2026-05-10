@@ -10,7 +10,7 @@ function SearchBar({ query, onQueryChange }) {
         aria-label="Search for a country"
       />
     </div>
-  )
+  );
 }
 
-export default SearchBar
+export default SearchBar;

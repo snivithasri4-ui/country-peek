@@ -1,5 +1,5 @@
 function CountryPage() {
-  return <div>Country Page</div>
+  return <div>Country Page</div>;
 }
 
-export default CountryPage
+export default CountryPage;

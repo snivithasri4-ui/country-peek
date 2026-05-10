@@ -1,5 +1,5 @@
 function ThemeContext() {
-  return null
+  return null;
 }
 
-export default ThemeContext
+export default ThemeContext;

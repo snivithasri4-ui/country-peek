@@ -1,5 +1,5 @@
 function useCountries() {
-  return []
+  return [];
 }
 
-export default useCountries
+export default useCountries;

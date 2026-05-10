@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import '../styles/App.css'
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,7 +12,7 @@ function Header() {
         <Link to="/favourites">Favourites</Link>
       </nav>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
