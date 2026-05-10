@@ -6,7 +6,7 @@ function Home() {
   const [query, setQuery] = useState("");
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
+  const [error, setError] = useState("") ;
 
   useEffect(() => {
     if (query.trim() === "") {

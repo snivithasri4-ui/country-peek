@@ -46,7 +46,7 @@
 }
 
 .search-bar__input:focus {
-  border-color: #2563eb;
+  border-color: #2563eb ;
 }
 
 .countries-container {
