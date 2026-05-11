@@ -1,7 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
+
 import "./styles/App.css";
 
 function App() {
@@ -11,7 +17,10 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
           <Route
             path="/country/:name"
@@ -23,7 +32,10 @@ function App() {
             element={<div>Favourites Page</div>}
           />
 
-          <Route path="*" element={<NotFound />} />
+          <Route
+            path="*"
+            element={<NotFound />}
+          />
         </Routes>
       </main>
     </BrowserRouter>
