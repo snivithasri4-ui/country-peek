@@ -39,9 +39,60 @@
   font-size: 1rem;
 }
 
-.home__placeholder {
-  color: #666;
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(240px, 1fr)
+  );
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px
+    rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card__flag {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__name {
   margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.card__body p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.card__body p span {
+  font-weight: bold;
+  color: #222;
+}
+
+.home__status {
+  padding: 1rem 0;
+  color: #666;
+}
+
+.home__status--error {
+  color: red;
 }
 
 .not-found {
